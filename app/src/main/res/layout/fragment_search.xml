@@ -144,7 +144,7 @@
     </HorizontalScrollView>
 
 
-    <com.lagradost.cloudstream3.ui.AutofitRecyclerView
+    <com.adgstudios.cloudstream3.ui.AutofitRecyclerView
             android:visibility="gone"
             android:nextFocusLeft="@id/nav_rail_view"
             android:descendantFocusability="afterDescendants"

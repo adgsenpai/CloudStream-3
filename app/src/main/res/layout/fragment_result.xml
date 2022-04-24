@@ -310,7 +310,7 @@
                                     android:textStyle="bold"
                                     tools:text="The Perfect Run The Perfect Run" />
 
-                            <com.lagradost.cloudstream3.widget.FlowLayout
+                            <com.adgstudios.cloudstream3.widget.FlowLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     app:itemSpacing="10dp">
@@ -345,7 +345,7 @@
                                         android:id="@+id/result_meta_duration"
                                         style="@style/ResultInfoText"
                                         tools:text="121min" />
-                            </com.lagradost.cloudstream3.widget.FlowLayout>
+                            </com.adgstudios.cloudstream3.widget.FlowLayout>
 
                             <FrameLayout
                                     android:layout_width="match_parent"
@@ -455,7 +455,7 @@
                             android:visibility="gone" />
 
 
-                    <com.lagradost.cloudstream3.widget.FlowLayout
+                    <com.adgstudios.cloudstream3.widget.FlowLayout
                             android:id="@+id/result_tag"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
