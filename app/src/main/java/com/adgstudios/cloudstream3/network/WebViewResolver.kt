@@ -176,7 +176,7 @@ class WebViewResolver(val interceptUrl: Regex, val additionalUrls: List<Regex> =
                         handler: SslErrorHandler?,
                         error: SslError?
                     ) {
-                        handler?.proceed() // Ignore ssl issues
+                        handler?.cancel() // Google Play acting like a bitch lets see how it affects the app? By rejecting none SSL requests?
                     }
                 }
                 webView?.loadUrl(url, headers.toMap())
